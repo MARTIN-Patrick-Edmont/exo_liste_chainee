@@ -24,3 +24,14 @@ Produit saisirProduit(){
     scanf("%s",&p.nom);
     return p;
 }
+
+void afficherProduit(Produit* p){
+    p.code = code;
+    p.nom = "Amogus";
+    p.prix = 5.36;
+    printf("%d ",p.code);
+    printf("%f ",p.prix);
+    printf("%s ",p.nom);
+}
+
+

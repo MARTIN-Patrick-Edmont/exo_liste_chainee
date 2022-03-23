@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 #include "../include/Produit.h"
+#include "../include/FichierProduit.h"
 
 int main()
 {
-    Produit p;
-    p = saisirProduit();
-    printf("%d ",p.code);
-    printf("%.2f ",p.prix);
-    printf("%s\n", p.nom);
+    unsigned int code;
+    test();
+    //scanf("%d",&code);
+    //afficherProduit(code);
 
     return 0;
 }
